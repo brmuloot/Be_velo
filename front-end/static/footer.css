@@ -1,0 +1,43 @@
+footer {
+    align-items: center;
+    height: 150px;
+    background: #D7B377;
+    display: flex;
+    color: white;
+}
+
+#logo2 img {
+    margin-left:50px;
+    width: 235px;
+    height: 95px;
+}
+
+.menu_footer {
+    width: 750px;
+    height: 95px;
+    background: #2B4162;
+    margin-right: 70px;
+}
+
+.reseau {
+    width: 300px;
+    height: 95px;
+    background: #2B4162;
+    margin-right: 70px;
+}
+
+.newsletter {
+    width: 300px;
+    height: 95px;
+    background: #2B4162;
+    margin-right: 240px;
+}
+
+a img {
+    width:40px;
+    height:40px;
+}
+
+.newsletter {
+    text-align: center;
+}
