@@ -5,6 +5,13 @@
     <link rel="stylesheet" href="static/header.css">
     <link rel="stylesheet" href="static/main.css">
     <title>Be velo</title>
+    <!--lien vers la librairie leaflet, important le lien css et le lien js doivent être collés l'un après l'autre-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
 </head>
 <body>
     <main>
@@ -22,9 +29,8 @@
         
         <section class="section_1">
             <div class="container">
-                <div id="map">
-                    Map - Lyon LeafLet + JCDecaux
-                </div>
+                <div id="map"></div>
+
                 <div class="status-square">
                     <h1>INFO STATION</h1>
                     <h2>Nom de la station :</h2>
@@ -51,5 +57,6 @@
     <footer>
 
     </footer>
+<script src="map.js"></script>
 </body>
 </html>
