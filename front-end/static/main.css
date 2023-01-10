@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    background:#d9d9d9;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+h2 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+.status-square h1{
+    font-size: 48px;
+    color: #2B4162;
+    text-align: center;
+}
+
+.status-square h2 {
+    font-size: 25px;
+    margin: 0;
+    padding: 20px;
+    width: 75%;
+    color : white;
+  }
+
+.status-square {
+    float: right;
+    width: 430px;
+    height: 512px;
+    background: rgba(56, 95, 113, 0.64);
+    border-radius: 23px;
+    padding: 10px;
+}
