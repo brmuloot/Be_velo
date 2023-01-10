@@ -11,6 +11,7 @@
 
 h1 {
     font-family: 'Comfortaa', sans-serif;
+    font-size: 36px;
 }
 
 h2 {
@@ -19,7 +20,6 @@ h2 {
 
 
 .status-square h1{
-    font-size: 48px;
     color: #2B4162;
     text-align: center;
 }
@@ -86,6 +86,40 @@ input {
     margin-top: 10px;
 }
 
+input:hover{
+    background: #d9d9d973;
+}
+
 #response-box {
     text-align: center;
 }
+
+/* 3e section */
+
+.section_3 {
+    background: white;
+}
+
+.section_3 H1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #385F71;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background: #D9D9D9;
+    width: 1007px;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#message {
+    background: #d9d9d9;
+}
+
