@@ -119,6 +119,10 @@ input:hover{
     margin-bottom: 100px;
 }
 
+.contact h2 {
+    text-align: center;
+}
+
 #message {
     background: #d9d9d9;
 }
