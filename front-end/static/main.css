@@ -1,3 +1,4 @@
+/* Première section */
 .container {
     display: flex;
     background:#d9d9d9;
@@ -10,6 +11,7 @@
 
 h1 {
     font-family: 'Comfortaa', sans-serif;
+    font-size: 36px;
 }
 
 h2 {
@@ -18,7 +20,6 @@ h2 {
 
 
 .status-square h1{
-    font-size: 48px;
     color: #2B4162;
     text-align: center;
 }
@@ -38,6 +39,88 @@ h2 {
     background: rgba(56, 95, 113, 0.64);
     border-radius: 23px;
     padding: 10px;
+}
+
+/* Deuxieme section */
+
+.section_2 {
+    background: #2B4162;
+}
+
+.section_2 H1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.container_2 {
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid #D7B377;
+}
+
+.formulaire #message {
+    background: #D9D9D9;
+    width: 437px;
+    height: 181px;
+    margin-top: 10px;
+}
+
+.formulaire #pseudo {
+    background: #D9D9D9;
+    width: 437px;
+}
+
+input {
+    width: 84px;
+    height: 40px;
+    background: #D9D9D9;
+    margin-top: 10px;
+}
+
+input:hover{
+    background: #d9d9d973;
+}
+
+#response-box {
+    text-align: center;
+}
+
+/* 3e section */
+
+.section_3 {
+    background: white;
+}
+
+.section_3 H1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #385F71;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background: #D9D9D9;
+    width: 1007px;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#message {
+    background: #d9d9d9;
 }
 
 /* pour la map */
