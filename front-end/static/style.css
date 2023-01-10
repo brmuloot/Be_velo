@@ -1,0 +1,37 @@
+* {
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    padding-left: 50px;
+    align-items: center;
+    height: 193px;
+    background: #2B4162;
+    display: flex;
+}
+
+#logo img {
+    width: 293px;
+    height: 109px;
+}
+
+nav {
+    font-family: 'Comfortaa', sans-serif;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    padding: 10px;
+}
+
+nav a:hover{
+    color : #385F71;
+    background-color: #D7B377;
+    border-radius: 11px;
+}
+
