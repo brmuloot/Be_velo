@@ -13,3 +13,14 @@ Pour installer :
 7. Sur le site wamp mettre dans la bar de recherche : localhost/Be_velo
 8. Cliquez sur le fichiez `front-end`
 9. Vous êtes maintenant sur le site !
+
+Checkez la base de donnée :
+
+1. Sur votre bar windows cliquer sur la petite flèche "afficher les icônes cachées"
+2. Cliquez sur `PhpMyAdmin 5.1.1`
+3. Pour vous connecter écrivez `root` dans `nom d'utilisateur`
+4. Cliquez sur `Se connecter`
+5. Cliquez sur `Importer`
+6. Cliquez sur `Choisir un fichier`
+7. Selectionez le fichier `be_velo.sql`
+8. A gauche cliquez sur be_velo et vous aurez accès au 2 tables : `avis` et `contact`
