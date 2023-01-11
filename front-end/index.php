@@ -53,17 +53,19 @@
                 <form class="formulaire" action="verif.php" method="POST">
                     <label for="pseudo"></label>
                     <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required>
-                    <label for="msg_avis"></label>
+                    <label for="msg_avis" class="msg_avis"></label>
                     <textarea type="msg_avis" id="msg_avis" name="msg_avis" placeholder="Message..." required></textarea>
                     <input type="submit" value="Envoyer">
                 </form>
-                <?php
-                include('recup.php');
-                 ?>
-                <div id="response-box">
-                    <h4>Réponse</h4>
-                    <div id="response-pseudo"></div>
-                    <div id="response-message"></div>
+                <div class="marche">
+                    <?php
+                    include('recup.php');
+                    ?>
+                 <div>
+                <div>
+                    <div id="response-box" class="carroussel">
+                        <div id="response-pseudo"></div>
+                        <div id="response-message"></div>
                 </div>
             </div>
         </section>
