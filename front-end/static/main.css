@@ -41,6 +41,12 @@ h2 {
     padding: 10px;
 }
 
+.status-square p {
+    color : white;
+    font-size : 25px;
+    font-family: "GoodTimesRg-Regular", sans-serif;
+}
+
 /* Deuxieme section */
 
 .section_2 {
@@ -67,7 +73,7 @@ h2 {
     border-right: 2px solid #D7B377;
 }
 
-.formulaire #message {
+.formulaire #msg_avis {
     background: #D9D9D9;
     width: 437px;
     height: 181px;
@@ -92,6 +98,15 @@ input:hover{
 
 #response-box {
     text-align: center;
+}
+
+.marche {
+    height : 200px;
+    text-align: center;
+    color: white;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
 }
 
 /* 3e section */

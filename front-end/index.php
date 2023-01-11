@@ -53,17 +53,19 @@
                 <form class="formulaire" action="verif.php" method="POST">
                     <label for="pseudo"></label>
                     <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required>
-                    <label for="msg_avis"></label>
+                    <label for="msg_avis" class="msg_avis"></label>
                     <textarea type="msg_avis" id="msg_avis" name="msg_avis" placeholder="Message..." required></textarea>
                     <input type="submit" value="Envoyer">
                 </form>
-                <?php
-                include('recup.php');
-                 ?>
-                <div id="response-box">
-                    <h4>Réponse</h4>
-                    <div id="response-pseudo"></div>
-                    <div id="response-message"></div>
+                <div class="marche">
+                    <?php
+                    include('recup.php');
+                    ?>
+                 <div>
+                <div>
+                    <div id="response-box" class="carroussel">
+                        <div id="response-pseudo"></div>
+                        <div id="response-message"></div>
                 </div>
             </div>
         </section>
@@ -72,22 +74,22 @@
             <H1 id="contacte">CONTACT</H1>
             <div class="contact">
                 <H2>Formulaire de contact</H2>
-                <form>
-                    <div class="form-group">
+                <form action="verif_contact.php" method="POST">
+                    <div class="form-group" >
                       <label for="name"></label>
-                      <input type="text" id="name" name="name" placeholder="Nom" class="form-control">
+                      <input type="text" id="name" name="nom" placeholder="Nom" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="email"></label>
-                      <input type="email" id="email" name="email" placeholder="Email" class="form-control">
+                      <input type="text" id="email" name="mail" placeholder="Email" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="subject"></label>
-                      <input type="text" id="subject" name="subject" placeholder="Sujet" class="form-control">
+                      <input type="text" id="subject" name="sujet" placeholder="Sujet" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="message"></label>
-                      <textarea id="message" name="message" placeholder="Message..." class="form-control"></textarea>
+                      <textarea id="message" name="msg_contact" placeholder="Message..." class="form-control"></textarea>
                     </div>
                     <input type="submit" value="Envoyer" class="btn btn-primary">
                 </form>                  
