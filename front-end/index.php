@@ -71,22 +71,22 @@
             <H1>CONTACT</H1>
             <div class="contact">
                 <H2>Formulaire de contact</H2>
-                <form>
-                    <div class="form-group">
+                <form action="verif_contact.php" method="POST">
+                    <div class="form-group" >
                       <label for="name"></label>
-                      <input type="text" id="name" name="name" placeholder="Nom" class="form-control">
+                      <input type="text" id="name" name="nom" placeholder="Nom" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="email"></label>
-                      <input type="email" id="email" name="email" placeholder="Email" class="form-control">
+                      <input type="text" id="email" name="mail" placeholder="Email" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="subject"></label>
-                      <input type="text" id="subject" name="subject" placeholder="Sujet" class="form-control">
+                      <input type="text" id="subject" name="sujet" placeholder="Sujet" class="form-control">
                     </div>
                     <div class="form-group">
                       <label for="message"></label>
-                      <textarea id="message" name="message" placeholder="Message..." class="form-control"></textarea>
+                      <textarea id="message" name="msg_contact" placeholder="Message..." class="form-control"></textarea>
                     </div>
                     <input type="submit" value="Envoyer" class="btn btn-primary">
                 </form>                  
