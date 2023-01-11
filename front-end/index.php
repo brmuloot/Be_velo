@@ -50,13 +50,16 @@
             <H1 id="avis">LES AVIS</H1>
 
             <div class="container_2">
-                <form class="formulaire">
+                <form class="formulaire" action="verif.php" method="POST">
                     <label for="pseudo"></label>
-                    <input type="text" id="pseudo" for="pseudo" placeholder="Pseudo" required>
-                    <label for="message"></label>
-                    <textarea type="message" id="message" for="message" placeholder="Message..." required></textarea>
-                    <input type="submit" value="Envoyer" onclick="submitForm()">
+                    <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required>
+                    <label for="msg_avis"></label>
+                    <textarea type="msg_avis" id="msg_avis" name="msg_avis" placeholder="Message..." required></textarea>
+                    <input type="submit" value="Envoyer">
                 </form>
+                <?php
+                include('recup.php');
+                 ?>
                 <div id="response-box">
                     <h4>Réponse</h4>
                     <div id="response-pseudo"></div>
