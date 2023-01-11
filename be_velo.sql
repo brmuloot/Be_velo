@@ -27,6 +27,9 @@ SET time_zone = "+00:00";
 -- Structure de la table `avis`
 --
 
+CREATE DATABASE IF NOT EXISTS be_velo;
+USE be_velo;
+
 CREATE TABLE `avis` (
   `id_avis` int(11) NOT NULL,
   `pseudo` varchar(100) NOT NULL,
